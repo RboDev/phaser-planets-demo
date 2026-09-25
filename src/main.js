@@ -6,9 +6,9 @@ class PlanetScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("planetA", "/assets/planets/planet-A.png");
-        this.load.image("planetB", "/assets/planets/planet-B.png");
-        this.load.image("rocketA", "/assets/rockets/rocket-A.png");
+        this.load.image("planetA", "assets/planets/planet-A.png");
+        this.load.image("planetB", "assets/planets/planet-B.png");
+        this.load.image("rocketA", "assets/rockets/rocket-A.png");
     }
 
     create() {
